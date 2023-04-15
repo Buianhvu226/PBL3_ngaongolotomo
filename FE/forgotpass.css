@@ -108,7 +108,7 @@ button[type="submit"]:hover {
 /* Flower background */
 body:before {
     content: "";
-    background-image: url("ima.png");
+    background-image: url("image/ima.png");
     background-size: cover;
     background-position: center;
     opacity: 15;
