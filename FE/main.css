@@ -373,5 +373,16 @@ main {
   color: #fff;
   cursor: default;
 }
-  
+.btn-create:link,
+.btn-create:visited {
+    color: #000;
+    background-color: #45a049;
+    width: 130px;
+    height: 45px;
+    font-size: small;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    margin-left: 20%;
+}
           
