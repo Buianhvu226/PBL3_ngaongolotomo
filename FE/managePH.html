@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Admin-PH Page</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="mainAdmin.css">
+  <link rel="stylesheet" href="Personal.css">
+  <link rel="stylesheet" href="hoSoGiaSu.css">
+  <link rel="stylesheet" href="managePH.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-box">
+        <img src="image/logo.png" alt="Logo" class="logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Trang chủ</a></li>
+        
+        <div class="search">
+          <input type="text" id="search-bar" placeholder="Search...">
+
+          <button type="submit" class="image-button">
+            <img src="image/iconSearch.png" alt="Image" class="button-image">
+          </button>
+        </div>
+
+        <div class="log-out-box">
+          <a href="index.html" class="btn btn-su">Đăng xuất</a>
+        </div>
+
+      </ul>
+    </nav>
+  </header>
+
+
+    <div class="container2">
+        <div class="control">
+          <img class="avatar" src="image/admin.jpg" alt="Avatar" />
+          <div class="user-info">
+            <div class="username">ADMIN</div>
+            <img src="image/iconControl.png" alt="Logo" class="iconControl" />
+          </div>
+        </div>
+  
+        <div class="menu">
+  
+          <div class="choice">
+              <ul>
+                <li><a  href="mainAdmin.html"><u>Quản lý bài đăng</u> </a>
+                </li>
+
+                <li><a  href="manageGS.html"><u>Quản lý tài khoản Gia sư <br><br></u></a>
+                </li>
+
+                <li><a href="managePH.html"><u> Quản lý tài khoản Phụ huynh<br><br></u> </a>
+                </li>
+
+              </ul>
+            </div>
+            
+        </div>
+      </div>
+    <main>
+
+        <h1 class="pageTitle">Quản lý tài khoản Phụ huynh</h1>
+
+        
+        <table>
+            <thead>
+              <tr>
+                <th>Số thứ tự</th>
+                <th>Tên tài khoản</th>
+                <th>Mật khẩu</th>
+                <th>Thao tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>NguyenVanA</td>
+                <td>d3463136jfsh</td>
+                <td>
+                  <button>Xem thông tin</button>
+                  <button>Khóa tài khoản</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>TranThiB</td>
+                <td>hghghktd67w</td>
+                <td>
+                  <button>Xem thông tin</button>
+                  <button>Khóa tài khoản</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>LeHoangC</td>
+                <td>54hhghkv7w</td>
+                <td>
+                  <button>Xem thông tin</button>
+                  <button>Khóa tài khoản</button>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+      
+    </main>
+
+    <div id="pagination">
+      <a href="#" id="first">&laquo; Đầu</a>
+      <a href="#" id="prev">&lsaquo; Trước</a>
+      <span id="pages"></span>
+      <a href="#" id="next">Tiếp &rsaquo;</a>
+      <a href="#" id="last">Cuối &raquo;</a>
+    </div>
+
+  </div>
+</body>
+
+<footer>
+        
+  <div class="footer">
+      <img src="image/footer.png" alt="footer" class="footer" height="188px" width="1200px">
+  </div>
+</footer>
+
+</html>

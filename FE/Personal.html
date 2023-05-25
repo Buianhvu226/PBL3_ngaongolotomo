@@ -3,6 +3,7 @@
   <head>
     <title>Personal Page</title>
     <link rel="stylesheet" href="Personal.css" />
+    <link rel="stylesheet" href="changePassGS.css" />
   </head>
 
   <body>
@@ -14,17 +15,6 @@
         <ul class="nav-links">
           <li><a href="main.html">Trang chủ</a></li>
           <li><a href="#">Cá nhân</a></li>
-          <div class="search">
-            <input type="text" id="search-bar" placeholder="Search..." />
-
-            <button type="submit" class="image-button">
-              <img
-                src="image/iconSearch.png"
-                alt="Image"
-                class="button-image"
-              />
-            </button>
-          </div>
 
           <div class="log-out-box">
             <a href="index.html" class="btn btn-su">Đăng xuất</a>
@@ -43,31 +33,23 @@
       </div>
 
       <div class="menu">
+
         <div class="choice">
-          <label class="TTTK"
-            ><strong
-              ><a href="Personal.html">Thông tin tài khoản</a></strong
-            ></label
-          ><br /><br /><br />
-
-          <div class="form-control">
-            <label><strong>Quản lý hồ sơ :</strong></label>
-            <select>
-              <option value="1">Tạo hồ sơ</option>
-              <option value="2">Xem hồ sơ</option>
-              <option value="3">Xóa hồ sơ</option>
-            </select>
+            <ul>
+              <li><a  href="Personal.html"><u>Thông tin tài khoản</u> </a>
+              </li>
+              <li><a  href="hoSoGiaSu.html"><u>Quản lý hồ sơ : <br><br></u></a>
+              </li>
+              <li><a href="#"><u> Quản lý suất dạy :<br><br></u> </a>
+                <ul>
+                  <li style="color: white;"><a href="#" >Suất dạy đã đăng kí </a></li>
+                  <li style="color: white;"><a href="#">Suất dạy được nhận</a></li>
+                  <li style="color: white;"><a href="#">Đánh giá của tôi</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
-
-          <div class="form-control">
-            <label><strong>Quản lý suất dạy :</strong></label>
-            <select>
-              <option value="4">Suất dạy đã đăng kí</option>
-              <option value="5">Suất dạy được nhận</option>
-              <option value="6">Đánh giá của tôi</option>
-            </select>
-          </div>
-        </div>
+          
       </div>
     </div>
 

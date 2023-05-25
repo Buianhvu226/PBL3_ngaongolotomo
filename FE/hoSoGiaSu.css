@@ -1,5 +1,5 @@
 .choice {
-    width: 200px;
+    width: 230px;
     background-color: #F1BB45;
     padding: 10px;
     border-radius: 5px;
@@ -53,7 +53,7 @@
 .create-profile input,
 .create-profile label {
   
-  width: 100%;
+  width: 130%;
   padding: 10px;
   margin-bottom: 7px;
   font-size: 10px;
@@ -77,7 +77,7 @@
 }
 
 /* Thiết lập style cho nút Lưu */
-.create-profile .Save-btn {
+.create-profile .Save-btn,.Del-btn {
   background-color: #6c63ff;
   color: #fff;
   padding: 10px 20px;
@@ -87,11 +87,16 @@
   cursor: pointer;
 }
 
-.create-profile .Save-btn:hover {
+.create-profile .Save-btn:hover,.Del-btn:hover {
   background-color: #534dff;
 }
 
 .container1{
     width: 50%;
     margin-top: -5%;
+}
+
+.Save-btn{
+  margin: 10%;
+  margin-left: 30%;
 }
