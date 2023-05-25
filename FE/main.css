@@ -251,7 +251,7 @@ main {
 
   .container {
     
-    min-height: 100vh;
+    min-height: 10vh;
   }
 
   .FilSearch{
@@ -386,4 +386,3 @@ main {
     margin: 5%;
     margin-left: 20%;
 }
-          
